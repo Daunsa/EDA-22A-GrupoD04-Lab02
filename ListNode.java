@@ -62,7 +62,25 @@ public class ListNode<T> {
         }
         return null;
     }
-    private Node get(int i, Node root){
-
+    public boolean set(int i, Node nodo){
+        if(i < 0 || i > (largo - 1)){
+            System.out.println("Fuera de rango");
+            return false;
+        }
+        if(i == 0){
+            Node temp = root.nextNode;
+            root = nodo;
+            root.nextNode = temp;
+        }
+        Node temp = this.root;
+        for (int j = 0; j < largo; j++) {
+            if(j == (i - 1)){
+                temp.nextNode = nodo;
+                break;
+            }else{
+                temp = root.nextNode;
+            }
+        }
+        return true;
     }
 }
