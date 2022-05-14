@@ -50,8 +50,6 @@ public class ListNode<T> {
             }else{
                 temp = this.root.nextNode();
             }
-
-
         }
         return -1;
     }
@@ -67,9 +65,6 @@ public class ListNode<T> {
             }else{
                 temp = this.root.nextNode();
             }
-
-
-
         }
         if (j!=-1){
             return j;
