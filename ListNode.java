@@ -18,12 +18,26 @@ public class ListNode<T> {
         return contains(valor, this.root);
     }
     private boolean contains (T valor, Node root){
-        if(root.value = valor){
+        if(root.value == valor){
             return true;
         }
         if(root.nextNode != null){
             contains(valor, root.nextNode);
         }
         return false;
+    }
+    public boolean add(T valor){
+        if(this.root == null){
+            this.root = new Node(valor);
+            return true;
+        }
+        return add(valor, this.root);
+    }
+    private boolean add(T valor, Node root){
+        if(root.nextNode != null){
+            add(valor, root.nextNode);
+        }
+        root.nextNode = new Node(valor);
+        return true;   
     }
 }
