@@ -41,7 +41,7 @@ public class ListNode<T> {
         return true;   
     }
     public boolean remove(T valor){
-        return contains(valor, this.root)[0];
+        return remove(valor, this.root)[0];
     }
     private Object[] remove (T valor, Node root){
         if(root.nextNode != null){
