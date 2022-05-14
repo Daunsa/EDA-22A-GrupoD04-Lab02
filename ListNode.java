@@ -81,4 +81,18 @@ public class ListNode<T> {
         return temp;
     }
 
+    public ListIterator<T> listIterator(int index) {
+        for(int i=0;i<this.largo;i++){
+            if(i==index){
+                break
+            }else{
+                this.root.nextNode();
+            }
+        }
+        ListIterator<T> temp = this.root.listIterator();
+        while (temp.hasNext())
+            System.out.println(temp.next());
+        return temp;
+    }
+
 }
