@@ -58,4 +58,12 @@ public class ListNode<T> {
         }
         return {false, null};
     }
+    public boolean containsAll(T [] c){
+        for(int i=0; i<c.length; i++){
+            if(!contains(c[i])){
+                return false;
+            }
+        }
+        return true;
+    }
 }
