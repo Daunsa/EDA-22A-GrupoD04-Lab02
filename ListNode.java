@@ -40,4 +40,22 @@ public class ListNode<T> {
         root.nextNode = new Node(valor);
         return true;   
     }
+    public boolean remove(T valor){
+        return contains(valor, this.root)[0];
+    }
+    private Object[] remove (T valor, Node root){
+        if(root.nextNode != null){
+            Object[] arraytemp = remove(valor, root.nextNode);
+            if(arraytemp[0]){
+                root.nextNode = arraytemp[1];
+            }
+            return {false, null};
+        }
+        if(root.value == valor){
+		    Node temp = root.nextNode;
+            root = null;
+            return {true,temp};
+        }
+        return {false, null};
+    }
 }
