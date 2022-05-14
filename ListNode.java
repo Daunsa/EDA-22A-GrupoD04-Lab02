@@ -14,4 +14,16 @@ public class ListNode<T> {
         }
         return true;
     }
+    public boolean contains(T valor){
+        return contains(valor, this.root);
+    }
+    private boolean contains (T valor, Node root){
+        if(root.value = valor){
+            return true;
+        }
+        if(root.nextNode != null){
+            contains(valor, root.nextNode);
+        }
+        return false;
+    }
 }
