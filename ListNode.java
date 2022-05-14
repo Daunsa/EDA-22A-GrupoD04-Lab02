@@ -95,4 +95,14 @@ public class ListNode<T> {
         return temp;
     }
 
+    public List <T> subList (int fromIndex, int toIndex){
+        Node<T> temp;
+        for(int i=0;i<fromIndex;i++)
+            this.root.nextNode;
+        for(int i=0;i<toIndex;i++){
+            temp.add(this.root.nextNode);
+        } 
+        return temp;
+    }
+
 }
