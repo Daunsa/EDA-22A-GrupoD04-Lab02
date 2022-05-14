@@ -8,4 +8,10 @@ public class ListNode<T> {
     public int size(){
         return largo;
     }
+    public boolean isEmpty(){
+        if(this.root != null){
+            return false;
+        }
+        return true;
+    }
 }
