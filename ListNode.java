@@ -12,5 +12,13 @@ public class ListNode<T> {
         }
         return true;
     }
-
+    
+    public boolean removeAll(T[] c){
+        if(c.length == 0)
+            return false;
+        for (int i = 0; i < c.length; i++) {
+            remove(c[i]);
+        }
+        return true;
+    }
 }
