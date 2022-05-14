@@ -48,4 +48,21 @@ public class ListNode<T> {
         }
         return true;
     }
+    public Node get(int i){
+        if(i < 0 || i > (largo - 1)){
+            return null;
+        }
+        Node temp = this.root;
+        for (int j = 0; j < largo; j++) {
+            if(j == i){
+                return temp;
+            }else{
+                temp = root.nextNode;
+            }
+        }
+        return null;
+    }
+    private Node get(int i, Node root){
+
+    }
 }
