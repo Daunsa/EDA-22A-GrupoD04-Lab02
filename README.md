@@ -83,7 +83,8 @@
 <tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS:<br>
 <h2>- Ejercicio individual Daniel Edward Tapia Saenz</h2><br>
 - Commits realizados<br>	
-	<img src="" alt="">
+	<img src="https://i.ibb.co/ZzCPwmV/Captura-de-pantalla-2022-05-14-185233.png" alt="">
+	<img src="https://i.ibb.co/VMLmRS1/Captura-de-pantalla-2022-05-14-185233.png" alt="">
 <br><br>
 <h2>- Ejercicio individual Ronald Pablo Garcia Valdivia</h2><br>
 - Commits realizados<br>	
@@ -105,5 +106,5 @@ RESPUESTA
 
 -CONCLUSION<br>
 -CONCLUSION<br>
--CONCLUSION<br>
+-Debido a que se pueden instanciar con distintos tipos de datos las clases genericas son de gran utilidad al momento de formar estrcuturas de datos.<br>
 <br><br></td></tr>
