@@ -21,4 +21,15 @@ public class ListNode<T> {
         }
         return true;
     }
+    
+    public void clear(){
+        clear(this.root);
+    }
+
+    private void clear(Node root){
+        if(root.nextNode != null){
+            clear(root.nextNode);
+        }
+        remove(root);
+    }
 }
