@@ -23,7 +23,9 @@ public class ListNode<T> {
     }
     
     public void clear(){
-        clear(this.root);
+        if(root != null){
+            clear(this.root);
+        }
     }
 
     private void clear(Node root){
