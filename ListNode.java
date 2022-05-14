@@ -1,3 +1,5 @@
+import java.util.ListIterator;
+
 public class ListNode<T> {
     Node<T> root;
     public ListNode(T value){
@@ -70,6 +72,13 @@ public class ListNode<T> {
             return j;
         }
         return -1;
+    }
+
+    public ListIterator<T> listIterator() {
+        ListIterator<T> temp = root.listIterator();
+        while (temp.hasNext())
+            System.out.println(temp.next());
+        return temp;
     }
 
 }
