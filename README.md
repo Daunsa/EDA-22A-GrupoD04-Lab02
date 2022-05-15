@@ -111,11 +111,13 @@ Los beneficios que nos dan es que nos permiten detectar errores de compilación,
 Una muy buena congetura en la que podemos terminar es en que la estructura curiosa de las listas genericas y empleo de nodos puede hacer que el codigo fuente pueda volverse mas versatil y optimo, por ello hay que tener en consideración esto.
 -CONCLUSION<br>
 -Debido a que se pueden instanciar con distintos tipos de datos las clases genericas son de gran utilidad al momento de formar estrcuturas de datos.<br>
+-CONCLUSION<br>
+-Las clases genéricas son una gran ayuda ya que nos permiten reutilizar el software.
 <br><br></td></tr>
 <tr><td colspan="6">REFERENCIAS:
 <ul>
         <li>https://www.w3schools.com/java/</li>
         <li>https://es.acervolima.com/diferencia-entre-list-y-arraylist-en-java/</li>
-        <li></li>
+        <li>https://picodotdev.github.io/blog-bitix/2016/04/tutorial-sobre-los-tipos-genericos-de-java/</li>
         <li></li>
 </ul></td></tr>	
