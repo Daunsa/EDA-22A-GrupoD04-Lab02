@@ -92,19 +92,29 @@
 <br><br>
 <h2>- Ejercicio individual Michael Benjamin Suclle Suca</h2><br>
 - Commits realizados<br>	
-	<img src="" alt="">
+	<img src="" alt="https://i.ibb.co/tqw9sgP/Captura-web-15-5-2022-21418-github-com.jpg"><br>
+	<img src="" alt="https://i.ibb.co/gPSXnQ9/Captura-web-15-5-2022-21511-github-com.jpg">
 <br><br>
 </td></tr>
 <tr><td>II. SOLUCIÓN DEL CUESTINARIO<br>
 
 -¿Qué diferencia hay entre un List y un ArrayList en Java?<br>
-RESPUESTA
+RESPUESTA<br>
+Para tener un buen punto de partida cabe mencionar que List es una interfaz y ArrayList es una clase que la emplea. Mientras List puede ampliar el marco de una colección, no se pueden crear intancias allí, usa una lista de elementos asociados a números y sus elementos se almacenan en secuencia, mientras ArrayList si permite extenderse a la clase AbstractList, se puede crear una matriz dinamica que contenga objetos y su uso es algo limitado porque como cualquier clase, no es tan posible de manejarse en un ambito mas generico.
 <br>-¿Qué beneficios y oportunidades ofrecen las clases genéricas en Java?<br>
 RESPUESTA
 <br></td></tr>
 <tr><td>III. CONCLUSIONES<br>
 
 -CONCLUSION<br>
+Una muy buena congetura en la que podemos terminar es en que la estructura curiosa de las listas genericas y empleo de nodos puede hacer que el codigo fuente pueda volverse mas versatil y optimo, por ello hay que tener en consideración esto.
 -CONCLUSION<br>
 -Debido a que se pueden instanciar con distintos tipos de datos las clases genericas son de gran utilidad al momento de formar estrcuturas de datos.<br>
 <br><br></td></tr>
+<tr><td colspan="6">REFERENCIAS:
+<ul>
+        <li>https://www.w3schools.com/java/</li>
+        <li>https://es.acervolima.com/diferencia-entre-list-y-arraylist-en-java/</li>
+        <li></li>
+        <li></li>
+</ul></td></tr>	
