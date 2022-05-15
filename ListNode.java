@@ -35,7 +35,7 @@ public class ListNode<T> {
         if(root.nextNode != null){
             clear(root.nextNode);
         }
-        remove(root);
+        remove((T) root.value);
     }
 
     public boolean equals(ListNode list){
