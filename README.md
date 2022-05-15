@@ -92,8 +92,8 @@
 <br><br>
 <h2>- Ejercicio individual Michael Benjamin Suclle Suca</h2><br>
 - Commits realizados<br>	
-	<img src="" alt="https://i.ibb.co/tqw9sgP/Captura-web-15-5-2022-21418-github-com.jpg"><br>
-	<img src="" alt="https://i.ibb.co/gPSXnQ9/Captura-web-15-5-2022-21511-github-com.jpg">
+	<img src="https://i.ibb.co/tqw9sgP/Captura-web-15-5-2022-21418-github-com.jpg" alt="https://i.ibb.co/tqw9sgP/Captura-web-15-5-2022-21418-github-com.jpg"><br>
+	<img src="https://i.ibb.co/gPSXnQ9/Captura-web-15-5-2022-21511-github-com.jpg" alt="https://i.ibb.co/gPSXnQ9/Captura-web-15-5-2022-21511-github-com.jpg">
 <br><br>
 </td></tr>
 <tr><td>II. SOLUCIÓN DEL CUESTINARIO<br>
