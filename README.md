@@ -88,7 +88,7 @@
 <br><br>
 <h2>- Ejercicio individual Ronald Pablo Garcia Valdivia</h2><br>
 - Commits realizados<br>	
-	<img src="" alt="">
+	<img src="https://ibb.co/Zgmk4Lj" alt=""><br>
 <br><br>
 <h2>- Ejercicio individual Michael Benjamin Suclle Suca</h2><br>
 - Commits realizados<br>	
