@@ -102,7 +102,8 @@
 RESPUESTA<br>
 Para tener un buen punto de partida cabe mencionar que List es una interfaz y ArrayList es una clase que la emplea. Mientras List puede ampliar el marco de una colección, no se pueden crear intancias allí, usa una lista de elementos asociados a números y sus elementos se almacenan en secuencia, mientras ArrayList si permite extenderse a la clase AbstractList, se puede crear una matriz dinamica que contenga objetos y su uso es algo limitado porque como cualquier clase, no es tan posible de manejarse en un ambito mas generico.
 <br>-¿Qué beneficios y oportunidades ofrecen las clases genéricas en Java?<br>
-RESPUESTA
+RESPUESTA<br>
+Los beneficios que nos dan es que nos permiten detectar errores de compilación, que solo se descubrirían al ejecutarlos, elimina el cast reduciendo así la repetición y aumentando la legibilidad del código, todo esto nos da l oprtunidad de trabajar de manera más eficiente en menor tiempo.
 <br></td></tr>
 <tr><td>III. CONCLUSIONES<br>
 
