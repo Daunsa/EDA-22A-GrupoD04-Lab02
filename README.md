@@ -82,7 +82,7 @@
 
 <tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS:<br>
 <h2>- Ejercicio individual Daniel Edward Tapia Saenz</h2><br>
-- Dificultades que tuve:
+- Dificultades que tuve:<br>
 	-Principalmente mis problemas se relacionaron al ejercicio numero 4 ya que al dividirse los metodos solo tuvimos indicios como parametros mas no la estrucutra que tomaria, lo cual pudimos solucionar creando ramas de correccion donde cada compañero pudo corregir los percances que se tuvieron
 <br><br>
 <h2>- Ejercicio individual Ronald Pablo Garcia Valdivia</h2><br>
