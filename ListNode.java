@@ -16,7 +16,7 @@ public class ListNode<T> {
         return true;
     }
     
-    public boolean removeAll(Node[] c){
+    public boolean removeAll(T[] c){
         if(c.length == 0)
             return false;
         for (int i = 0; i < c.length; i++) {
@@ -35,7 +35,7 @@ public class ListNode<T> {
         if(root.nextNode != null){
             clear(root.nextNode);
         }
-        remove(root);
+        remove((T) root.value);
     }
 
     public boolean equals(ListNode list){
