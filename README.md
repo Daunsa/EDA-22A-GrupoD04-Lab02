@@ -87,8 +87,7 @@
 <br><br>
 <h2>- Ejercicio individual Ronald Pablo Garcia Valdivia</h2><br>
 - Commits realizados<br>	
-	<img src="https://i.postimg.cc/K804zhwN/Whats-App-Image-2022-05-15-at-2-48-06-PM.jpg" alt=""><br>
-	<img src="https://i.postimg.cc/PJ1Qs56K/Whats-App-Image-2022-05-15-at-3-01-27-PM.jpg" alt=""><br>
+	Principalmente tuve desafíaos con este nuevo tema, me tomó tiempo entenderlo y aún me falta perfeccionarlo, sufrí mucho con el ejercicio 4 por mi falta de conocimiento sobre el tema, pero me motivé al tomarlo como un desafío.<br>
 <br><br>
 <h2>- Ejercicio individual Michael Benjamin Suclle Suca</h2><br>
 - Commits realizados<br>	
