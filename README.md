@@ -82,9 +82,8 @@
 
 <tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS:<br>
 <h2>- Ejercicio individual Daniel Edward Tapia Saenz</h2><br>
-- Commits realizados<br>	
-	<img src="https://i.ibb.co/CMZDtSt/Captura-de-pantalla-2022-05-14-185617.png" alt=""><br>
-	<img src="https://i.ibb.co/bLps4Vn/Captura-de-pantalla-2022-05-14-190050.png" alt="">
+- Dificultades que tuve:
+	-Principalmente mis problemas se relacionaron al ejercicio numero 4 ya que al dividirse los metodos solo tuvimos indicios como parametros mas no la estrucutra que tomaria, lo cual pudimos solucionar creando ramas de correccion donde cada compañero pudo corregir los percances que se tuvieron
 <br><br>
 <h2>- Ejercicio individual Ronald Pablo Garcia Valdivia</h2><br>
 - Commits realizados<br>	
