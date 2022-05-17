@@ -87,7 +87,7 @@
 <br><br>
 <h2>- Ejercicio individual Ronald Pablo Garcia Valdivia</h2><br>
 - Commits realizados<br>	
-	Principalmente tuve desafíaos con este nuevo tema, me tomó tiempo entenderlo y aún me falta perfeccionarlo, sufrí mucho con el ejercicio 4 por mi falta de conocimiento sobre el tema, pero me motivé al tomarlo como un desafío.<br>
+	Principalmente tuve desafíos con este nuevo tema, me tomó tiempo entenderlo y aún me falta perfeccionarlo, sufrí mucho con el ejercicio 4 por mi falta de conocimiento sobre el tema, en cierto punto sentí que no podría con los problemas.<br>
 <br><br>
 <h2>- Ejercicio individual Michael Benjamin Suclle Suca</h2><br>
 - Commits realizados<br>	
