@@ -86,13 +86,13 @@
 	-Principalmente mis problemas se relacionaron al ejercicio numero 4 ya que al dividirse los metodos solo tuvimos indicios como parametros mas no la estrucutra que tomaria, lo cual pudimos solucionar creando ramas de correccion donde cada compañero pudo corregir los percances que se tuvieron
 <br><br>
 <h2>- Ejercicio individual Ronald Pablo Garcia Valdivia</h2><br>
-- Commits realizados<br>	
+- Dificultades que tuve:<br>	
 	Principalmente tuve desafíos con este nuevo tema, me tomó tiempo entenderlo y aún me falta perfeccionarlo, sufrí mucho con el ejercicio 4 por mi falta de conocimiento sobre el tema, en cierto punto sentí que no podría con los problemas.<br>
 <br><br>
 <h2>- Ejercicio individual Michael Benjamin Suclle Suca</h2><br>
 - Commits realizados<br>	
-	<img src="https://i.ibb.co/tqw9sgP/Captura-web-15-5-2022-21418-github-com.jpg" alt="https://i.ibb.co/tqw9sgP/Captura-web-15-5-2022-21418-github-com.jpg"><br>
-	<img src="https://i.ibb.co/gPSXnQ9/Captura-web-15-5-2022-21511-github-com.jpg" alt="https://i.ibb.co/gPSXnQ9/Captura-web-15-5-2022-21511-github-com.jpg">
+- Dificultades que tuve:<br>
+	Mi preocupación al llegar a hacer la tarea fue no poder comprender con exactitud lo que estaba haciendo, mas mientras iba andalizanso y avanzando con la tarea, pude entender un poco mas de lo util que puede ser utilizar este tipo de mecanismos y tambien lo practico que puede llegar a ser. Hablo del ejercicio 4 especificamente.<br>
 <br><br>
 </td></tr>
 <tr><td>II. SOLUCIÓN DEL CUESTINARIO<br>
