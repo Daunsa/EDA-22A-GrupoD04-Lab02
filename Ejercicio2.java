@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-
-import javafx.print.PrintColor;
 public class Ejercicio2 {
 	private static int numeroatrasladar = 4;
 	public static void main(String[] args){

@@ -107,6 +107,7 @@ public class ListNode<T> {
         }
         return false;
     }
+    
     public boolean add(T valor){
         if(this.root == null){
             this.root = new Node(valor);
@@ -147,33 +148,32 @@ public class ListNode<T> {
         }
         return true;
     }
-
-    public void add(int i, T value){
-        if(i < 0 || i > (this.largo - 1)){
+    public void add(final int i, T value){
+        if (i < 0 || i > (this.largo - 1)) {
             return;
         }
-        if (i==0){
-            Node temp = this.root;
-            this.root = new Node(value);
+        if (i == 0) {
+            final Node<T> temp = this.root;
+            this.root = new Node<T>(value);
             this.root.nextNode = temp;
         }
-        Node temp = this.root;
+        Node<T> temp = this.root;
         for (int j = 0; j < this.largo; j++) {
-            if(j == (i-1)){
+            if (j == (i - 1)) {
                 temp = this.root.nextNode;
-                this.root.nextNode=new Node(value);
-                this.root.nextNode.nextNode=temp;
+                this.root.nextNode = new Node<T>(value);
+                this.root.nextNode.nextNode = temp;
                 break;
-            }else{
+            } else {
                 temp = this.root.nextNode;
             }
         }
     }
 
-    public T remove (int i){
-        Node temp;
-        for(int j;j<this.largo;j++){
-            if(j == (i-1)){
+    public Node<T> remove(final  int i){
+        Node<T> temp;
+        for (int j = 0; j < this.largo; j++) {
+            if (j == (i - 1)) {
                 temp = this.root.nextNode;
                 this.root.nextNode = temp.nextNode;
                 return temp;
@@ -181,53 +181,57 @@ public class ListNode<T> {
                 temp = this.root.nextNode;
             }
         }
+        return null;
     }
-    public int indexOf (Object o){
-        if(o==null{
+
+    public int indexOf(Object o){
+        if (o == null) {
             return -1;
         }
-        Node temp;
-        for(int i=0;i<this.largo;i++){
-            if(this.root.value == o && o.equals(root.value){
+        Node<T> temp;
+        for (int i = 0; i < this.largo; i++) {
+            if (this.root.value == null || o.equals(root.value)) {
                 return i;
-            }else{
-                temp = this.root.nextNode();
+            } else {
+                temp = this.root.nextNode;
             }
         }
         return -1;
     }
-    public int lastIndexOf (Object o){
-        if(o==null{
+
+    public int lastIndexOf(final Object  o){
+        if (o == null) {
             return -1;
         }
-        Node temp;
-        int j=-1;
-        for(int i=0;i<this.largo;i++){
-            if(this.root.value == o || o.equals(root.value){
-               j = i;
-            }else{
-                temp = this.root.nextNode();
+        Node<T> temp;
+        int j = -1;
+        for (int i = 0; i < this.largo; i++) {
+            if (this.root.value == o || o.equals(root.value)) {
+                j = i;
+            } else {
+                temp = this.root.nextNode;
             }
         }
-        if (j!=-1){
+        if (j != -1) {
             return j;
         }
         return -1;
     }
 
     public ListIterator<T> listIterator() {
-        ListIterator<T> temp = root.listIterator();
-        while (temp.hasNext())
+        ListIterator<T> temp = this.root.listIterator();
+        while (temp.hasNext()){
             System.out.println(temp.next());
+        }
         return temp;
     }
 
-    public ListIterator<T> listIterator(int index) {
+    public ListIterator<T> listIterator(final int index) {
         for(int i=0;i<this.largo;i++){
             if(i==index){
-                break
+                break;
             }else{
-                this.root.nextNode();
+                Node<T> borrar = this.root.nextNode;
             }
         }
         ListIterator<T> temp = this.root.listIterator();
@@ -236,14 +240,15 @@ public class ListNode<T> {
         return temp;
     }
 
-    public List <T> subList (int fromIndex, int toIndex){
-        Node<T> temp;
-        for(int i=0;i<fromIndex;i++)
-            this.root.nextNode;
+    public Node<T> subList (int fromIndex, int toIndex){
+        final Node<T> temp;
+        for(int i=0;i<fromIndex;i++){
+            Node<T> borrar = this.root.nextNode;
+        }
         for(int i=0;i<toIndex;i++){
-            temp.add(this.root.nextNode);
+            this.root.nextNode=this.root.nextNode.nextNode;
+            temp.add(this.root);
         } 
         return temp;
     }
-
 }
